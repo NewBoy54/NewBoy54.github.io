@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CJProfileSite</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fluid pt-3 min-vh-100 bg-image-full" style="background-image: url(../images/Profile_site_background.jpg); background-size:100%;">
+    <div class="container-fluid pt-3 min-vh-100 bg-image-full" style="background-image: url(Profile_site_background.jpg); background-size:100%;">
         <!--
         <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container">
@@ -25,14 +26,14 @@
         -->
         <div class="row" id="logo">
             <div class="col text-center">
-                <a href="#"><img class="img-fluid" src="~/Images/CJLogoTransparency.png" style="width:30%"/></a>
+                <a href="#"><img class="img-fluid" src="CJLogoTransparency.png" style="width:30%"/></a>
             </div>
         </div>
         <div class="row">
             <div class="col p-4 d-flex justify-content-center">
-                <a class="btn btn-outline-light text-light mx-1" asp-action="About" asp-controller="Home">About</a>
-                <a class="btn btn-outline-light text-light mx-1" asp-action="Projects" asp-controller="Home">Projects</a>
-                <a class="btn btn-outline-light text-light mx-1" asp-action="Contact" asp-controller="Home">Contact</a>
+                <a href="about.html" class="btn btn-outline-light text-light mx-1">About</a>
+                <a href="projects.html" class="btn btn-outline-light text-light mx-1">Projects</a>
+                <a href="contact.html" class="btn btn-outline-light text-light mx-1">Contact</a>
             </div>
             
         </div>
