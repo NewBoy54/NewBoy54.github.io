@@ -1,0 +1,13 @@
+btn {
+    transition-duration:0.4s;
+}
+
+btn:hover {
+    background-color: blue !important;
+}
+
+#indexContent {
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2em;
+}
