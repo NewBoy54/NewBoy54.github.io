@@ -1,13 +1,51 @@
-btn {
-    transition-duration:0.4s;
+body {
+    background: url(../images/Profile_site_background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
 }
 
-btn:hover {
-    background-color: blue !important;
+.btn-outline-light {
+    color:white !important;
 }
 
-#indexContent {
+.btn-outline-light:hover {
+    transition-duration: 0.4s;
+    background-color:aquamarine !important;
+}
+
+.list-group {
+    
+    background-color:black;
+    opacity:0.3;
+}
+.list-group-item {
+    color:white;
+}
+
+.contenttext {
     color:white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:2em;
+}
+
+@media screen and (max-width:576px) {
+    .contenttext {
+        font-size: 1em;
+    }
+}
+
+.contenttext-about {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:576px) {
+    .contenttext-about {
+        font-size: 0.7em;
+    }
+
+    #picOfMe {
+        width:60%;
+    }
 }
