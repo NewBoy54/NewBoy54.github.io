@@ -10,7 +10,7 @@ body {
 
 .btn-outline-light:hover {
     transition-duration: 0.4s;
-    background-color:aquamarine !important;
+    background-color:rgb(66, 78, 255) !important;
 }
 
 .list-group {
